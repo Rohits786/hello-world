@@ -1,0 +1,118 @@
+
+<html>
+<head>
+<title> Application form </title>
+<meta name="author" content="Rohit Singh Rajawat"> </meta>
+<script type="name/javascript">
+ function submit()
+{
+   alert("Your Application form has been submitted")
+}
+</script>
+<style>
+#header
+{
+  background-color: aqua;
+     text-align: center;
+    color:white;
+    height:100px;
+}
+#workarea
+{
+   backgound-color:white;
+    color: black;
+}
+ </style>
+</head>
+<body>
+   <div id="header">
+    <u><h1> Application Form</h1></u>
+    </div>
+<hr/>
+ <form>
+<b> First Name </b> : <input type="textbox" size="30" name="one" placeholder="Enter your first name" required /> <font color="red"<cite>/* required */</cite></font>
+ <br/>
+<b>Last Name </b> : <input type="textbox" name="two" size="30" placeholder="Enter your Surname" required />
+<br/>
+<b>Father Name</b> : <input type="text" name="twenty" placeholder="Enter your father's Name" size="28" required />
+<br/>
+<b>Mother Name</b> : <input type="text" name="twenty one" placeholder="Enter your Mother Name" size="27" required />
+<br/>
+<b> Gender </b> : <input type="radio" name="eight" value="on">Male
+                  <input type="radio" name="eight" value="on">Female
+<br/>
+<b> Religion </b> : <input type="radio" name="twenty three" value="on">Hindu
+                    <input type="radio" name="twenty three" value="on">Muslim
+                    <input type="radio" name="twenty three" value="on">Christian
+                    <input type="radio" name="twenty three" value="on">Other
+<br/>
+<b>Date of Birth</b> : <input type="date" name="nine" >
+<br/>
+<b>Email-id </b> : <input type="email" name="ten" placeholder="Enter your email-id only" size="30" />
+<br/>
+<b> Contact No. </b> : <input type="text" name="twenty two" placeholder="enter your 10 digits mobile number" size="30" />
+<br/>
+<b> Educational Qualification </b> : <select name="dropdownlist" size="1">
+                                     <option value="1">pursuing 10+2 with physics,chemistry and mathematics stream </option>
+                                     <option value="2">pursuing 10+2 equaivalent to commerce stream </option>
+                                     <option value="3">passed 10+2 with physics,chemistry and mathematics with 70% or above </option>
+                                     <option value="4">passed 10+2 with commerece stream with 70% or above </option>
+</select>
+<br/>
+<p><b><font color="red"><u> If 10+2 passed,Enter your 10+2 marks details</u></font></b></p>
+<table border="2">
+<th><b>Subject</b></th>
+<th><b>Marks Obtained </b></th>
+<th><b>Total Marks </b></th>
+<tr>
+<td>1. Physics</td>
+<td><input type="text" name="eleven"></td>
+<td><input type="text" name="twelve" value="100" readonly></td>
+</tr>
+<tr>
+<td>2. Chemistry </td>
+<td><input type="text" name="thirteen"></td>
+<td><input type="text" name="fourteen" value="100" readonly></td>
+</tr>
+<tr>
+<td> 3. Mathematics </td>
+<td><input type="text" name="fifteen" ></td>
+<td><input type="text" name="sixteen" value="100" readonly></td>
+</tr>
+<tr>
+<td><b> Total Marks </b> </td>
+<td><input type="text" name="seventeen" </td>
+<td><input type="text" name="eighteen" value="300" readonly></td>
+</table>
+<br/>
+
+                                     
+<b>Address </b>  : <input type="textbox" name="three" size="118" placeholder="Line 1" required /> <font color="red"<cite>/* required */</cite></font>
+<br/>
+                    <input type="textbox" name="four" size="129" placeholder="Line 2 " required /> <font color="red"<cite>/* required */</cite></font>
+ 
+<br/>
+                    
+                    <input type="textbox" name="five" size="129" placeholder="Line 3 " required /><font color="red"<cite>/* required */</cite></font>
+ 
+<br/>
+<b> District </b> : <input type="textbox" name="six" size="30" placeholder="Enter your District Name" />
+<br/>
+<b> State </b> : <input type="textbox" name="seven" size="32" placeholder="Enter your State Name" />
+<br/>
+<b> Pin Code</b>:<input type="text" name="nineteen" placeholder="Enter your pin code"  size="30"/>
+<br/>
+<b> Upload your photo</b> : <input type="file" name="twenty nine" accept="image" /> <font color="red"><cite>/* only .gif .png .jpeg images are accepted */ </cite></font>
+<br/>
+<input type="checkbox" name="twenty four" value="on">I accept that the information given by me in this application form are correct,I shall be responsible for any wrong information and my candidature will be cancelled on caught of wrong information.
+<br/>
+<input type="button" name="twenty five" value="Submit" onclick="submit()" />
+<input type="reset" name="twenty six" value="Reset"/>
+&nbsp;
+&nbsp;
+<a href="sudoku.html"><input type="button" name="twenty seven" value="Next Page" /></a>
+<a href="Learn HTML.html"><input type="button" name="twenty eight" value="Cancel" /></a>
+                    
+</form>
+</body>
+</html>
